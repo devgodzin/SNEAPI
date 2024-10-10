@@ -107,6 +107,10 @@ repositories {
         name 'CleanroomMC Maven'
         url 'https://maven.cleanroommc.com'
     }
+    maven {
+        name 'CurseForge Maven'
+        url 'https://maven.curseforge.com'
+    }
 }
 
 dependencies {
@@ -144,6 +148,7 @@ dependencies {
         testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
         testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     }
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
 }
 
 apply from: 'gradle/scripts/dependencies.gradle'

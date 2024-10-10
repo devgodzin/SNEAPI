@@ -1,12 +1,17 @@
-[{
-	"modid": "${mod_id}",
-	"name": "${mod_name}",
-	"version": "${mod_version}",
-	"mcversion": "1.12.2",
-	"description": "${mod_description}",
-	"authorList": ${mod_authors},
-	"credits": "${mod_credits}",
-	"url": "${mod_url}",
-	"updateJSON": "${mod_update_json}",
-	"logoFile": "${mod_logo_path}"
-}]
+[
+	{
+		"modid": "snea",
+		"name": "Shinobi New Era Addons",
+		"description": "Mod criado para o Shinobi New Era, em colaboração com a Between Realms Studio",
+		"version": "0.0.1",
+		"mcversion": "1.12.2",
+		"logoFile": "assets/snea/textures/logo.png",
+		"url": "https://discord.gg/BPnHeH4DRU",
+		"updateUrl": "",
+		"authorList": ["SrGodzin1"],
+		"credits": "AHZNB, Between Realms Studio",
+		"parent": "",
+		"screenshots": [],
+		"dependencies": []
+	}
+]
