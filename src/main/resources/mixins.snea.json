@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "brstudio.godzin.snea.mixins",
+	"refmap": "mixins.sneapi.json",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8.5",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"SusanooChanger"
+	],
+	"client": [],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

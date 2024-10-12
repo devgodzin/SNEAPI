@@ -26,7 +26,6 @@ public class SNEA {
 
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event) {
-
     }
 
     @Mod.EventHandler
